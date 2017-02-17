@@ -255,7 +255,7 @@ More details can be found in the API docs for
 [CountVectorizerModel](api/scala/index.html#org.apache.spark.ml.feature.CountVectorizerModel).
 {% highlight scala %}
 import org.apache.spark.ml.feature.CountVectorizer
-import org.apache.spark.mllib.util.CountVectorizerModel
+import org.apache.spark.ml.feature.CountVectorizerModell
 
 val df = sqlContext.createDataFrame(Seq(
   (0, Array("a", "b", "c")),
